@@ -121,6 +121,7 @@ CREATE TABLE [dbo].[CLIENTE](
 	[Dni] [char](8) NOT NULL,
 	[Nombre] [varchar](30) NOT NULL,
 	[Apellido] [varchar](30) NOT NULL,
+	[FechaNacimiento] [date] NOT NULL
 PRIMARY KEY CLUSTERED 
 (
 	[IdCliente] ASC
