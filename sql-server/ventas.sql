@@ -88,7 +88,7 @@ GO
 CREATE TABLE [dbo].[BOLETA](
 	[IdBoleta] [int] IDENTITY(1,1) NOT NULL,
 	[NumeroBoleta] [char](10) NOT NULL,
-	[FechaEmision] [date] NOT NULL,
+	[FechaEmision] [datetime] NOT NULL,
 	[IdCliente] [int] NULL,
 PRIMARY KEY CLUSTERED 
 (
