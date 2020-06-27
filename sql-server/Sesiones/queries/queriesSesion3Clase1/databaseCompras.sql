@@ -1,0 +1,7 @@
+USE Ventas
+GO
+
+CREATE DATABASE COMPRAS
+
+
+

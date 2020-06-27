@@ -1,0 +1,55 @@
+--CREATE DATABASE BDBiblioteca
+--GO
+
+USE BDBiblioteca
+GO
+
+CREATE TABLE Libro
+(
+id INT PRIMARY KEY IDENTITY,
+codigo CHAR(3) NOT NULL UNIQUE,
+titulo VARCHAR(40) NOT NULL,
+cantidadPaginas INT CHECK (cantidadPaginas >0)
+)
+
+CREATE TABLE Materia
+(
+id INT PRIMARY KEY IDENTITY,
+codigo CHAR(3) NOT NULL UNIQUE,
+nombre VARCHAR(20) NOT NULL UNIQUE
+)
+
+CREATE TABLE USUARIO 
+(
+id INT PRIMARY KEY IDENTITY,
+dni CHAR(8) NOT NULL UNIQUE,
+nombre VARCHAR(20) NOT NULL,
+apellidoPaterno VARCHAR(30) NOT NULL,
+direccion VARCHAR(200),
+ocupacion VARCHAR(50)
+)
+
+CREATE TABLE Ejemplar
+(
+id INT PRIMARY KEY IDENTITY,
+codigo CHAR(3) NOT NULL UNIQUE,
+estadoConservacion VARCHAR(30) NOT NULL,
+idLibro INT FOREIGN KEY REFERENCES Libro
+)
+
+CREATE TABLE Ejemplar_Usuario
+(
+idEjemplar INT FOREIGN KEY REFERENCES Ejemplar,
+idUsuario INT FOREIGN KEY REFERENCES Usuario,
+fecha DATETIME
+)
+
+ALTER TABLE Libro 
+ADD idMateria INT 
+FOREIGN KEY REFERENCES Materia(id)
+
+
+
+
+
+

@@ -9,3 +9,7 @@ WHERE name LIKE 'Ventas%'
 
 --Note que el campo size es la suma del tamaño del archivo principal y el de registro.
 --Si no se especifica tamaño máximo, max-size es igual a -1
+
+SELECT * FROM sys.databases
+
+

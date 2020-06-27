@@ -66,11 +66,12 @@ WHERE FechaEmision BETWEEN '2020-04-01' AND '2020-05-31'
 -- Modificamos la hora del 31 de mayo
 SELECT * FROM BOLETA WHERE IdBoleta = 9
 
-UPDATE BOLETA SET FechaEmision = '2020-05-31 09:30:00' WHERE IdBoleta = 9
+UPDATE BOLETA SET FechaEmision = '2020-05-31 09:30:00' WHERE IdBoleta = 9 --YYYY-mm-dd
 
 SELECT * FROM BOLETA WHERE IdBoleta = 9
 
+-- Listar las boletas generadas entre abril y mayo
 SELECT * FROM BOLETA
-WHERE FechaEmision BETWEEN '2020-04-01' AND '2020-05-31'
+WHERE FechaEmision BETWEEN '2020-04-01' AND '2020-05-31 23:59:59'
 
 
