@@ -1,0 +1,17 @@
+D:\Proyectos\Practicas\TSCI\Veterinariav01\VeterinariaV01\VeterinariaDL\bin\Debug\VeterinariaDL.dll
+D:\Proyectos\Practicas\TSCI\Veterinariav01\VeterinariaV01\VeterinariaDL\bin\Debug\VeterinariaDL.pdb
+D:\Proyectos\Practicas\TSCI\Veterinariav01\VeterinariaV01\VeterinariaDL\bin\Debug\VeterinariaEL.dll
+D:\Proyectos\Practicas\TSCI\Veterinariav01\VeterinariaV01\VeterinariaDL\bin\Debug\VeterinariaEL.pdb
+D:\Proyectos\Practicas\TSCI\Veterinariav01\VeterinariaV01\VeterinariaDL\obj\Debug\VeterinariaDL.csprojResolveAssemblyReference.cache
+D:\Proyectos\Practicas\TSCI\Veterinariav01\VeterinariaV01\VeterinariaDL\obj\Debug\VeterinariaDL.csproj.CoreCompileInputs.cache
+D:\Proyectos\Practicas\TSCI\Veterinariav01\VeterinariaV01\VeterinariaDL\obj\Debug\VeterinariaDL.dll
+D:\Proyectos\Practicas\TSCI\Veterinariav01\VeterinariaV01\VeterinariaDL\obj\Debug\VeterinariaDL.pdb
+D:\Practicas\TSCI\Veterinariav01\VeterinariaV01\VeterinariaDL\bin\Debug\VeterinariaDL.dll
+D:\Practicas\TSCI\Veterinariav01\VeterinariaV01\VeterinariaDL\bin\Debug\VeterinariaDL.pdb
+D:\Practicas\TSCI\Veterinariav01\VeterinariaV01\VeterinariaDL\bin\Debug\VeterinariaEL.dll
+D:\Practicas\TSCI\Veterinariav01\VeterinariaV01\VeterinariaDL\bin\Debug\VeterinariaEL.pdb
+D:\Practicas\TSCI\Veterinariav01\VeterinariaV01\VeterinariaDL\obj\Debug\VeterinariaDL.csprojAssemblyReference.cache
+D:\Practicas\TSCI\Veterinariav01\VeterinariaV01\VeterinariaDL\obj\Debug\VeterinariaDL.csproj.CoreCompileInputs.cache
+D:\Practicas\TSCI\Veterinariav01\VeterinariaV01\VeterinariaDL\obj\Debug\VeterinariaDL.csproj.CopyComplete
+D:\Practicas\TSCI\Veterinariav01\VeterinariaV01\VeterinariaDL\obj\Debug\VeterinariaDL.dll
+D:\Practicas\TSCI\Veterinariav01\VeterinariaV01\VeterinariaDL\obj\Debug\VeterinariaDL.pdb

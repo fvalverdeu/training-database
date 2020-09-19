@@ -1,0 +1,34 @@
+﻿@model MascotaEL
+@{
+    ViewBag.Title = "Editar";
+    List<EspecieEL> especies = ViewBag.Especies;
+}
+
+<h2>Editar</h2>
+<h3>@(Model.MascotaId > 0 ? Model.Nombre : "Nueva mascota")</h3>
+
+@using (Html.BeginForm("guardar", "mascota", FormMethod.Post))
+{
+    @Html.HiddenFor(x => x.MascotaId)
+
+    <label>Nombre</label><br />
+    @Html.TextBoxFor(x => x.Nombre)
+    <br /><br />
+
+    <label>Edad</label><br />
+    @Html.TextBoxFor(x => x.Edad)
+    <br /><br />
+
+    <label>Especie</label><br />
+    <select name="EspecieId">
+        @foreach (var item in especies)
+        {
+            <option @(item.EspecieId == Model.EspecieId ? "selected" : "") value="@item.EspecieId">
+                @item.Descripcion
+            </option>
+        }
+    </select>
+    <br /><br />
+
+    <button type="submit">Enviar</button>
+}

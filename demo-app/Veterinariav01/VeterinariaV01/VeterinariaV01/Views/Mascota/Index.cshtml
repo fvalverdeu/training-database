@@ -1,0 +1,34 @@
+﻿@model List<VeterinariaEL.MascotaEL>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Mascotas</h2>
+Cantidad: @Model.Count()
+
+<a href="~/mascota/editar">Registrar mascota</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Especie</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>@item.Nombre</td>
+            <td>@item.Edad</td>
+            <td>@item.EspecieEL.Descripcion</td>
+            <td>
+                <a title="editar" href="~/mascota/editar/@item.MascotaId">Editar</a>
+                <a title="eliminar" href="~/mascota/eliminar/@item.MascotaId">Eliminar</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+

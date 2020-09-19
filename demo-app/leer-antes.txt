@@ -1,0 +1,6 @@
+modificar el archivo Web.config para 
+registrar la cadena de conexión a su BD.
+
+<connectionStrings>
+    <add name="sqlConnection" connectionString="Server=localhost; Database=BDVeterinaria; User Id = sa; Password = sql"/>
+  </connectionStrings>
